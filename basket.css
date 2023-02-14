@@ -1,0 +1,46 @@
+@font-face {
+    font-family:  font;
+    src: url("font.ttf");
+}
+body{
+   
+}
+.board{
+    background-color:#1b244a;
+    width: 500px;
+    color: white;
+    display: flex;
+
+}
+.extra{
+    text-align: center;
+}
+.team{
+    padding: 10px;
+    text-align: center;
+}
+#score1,#score2{
+    font-family: font;
+    background-color: black;
+    color: rgb(235, 79, 79);
+    font-size: 5rem;
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    text-align: end;
+}
+.p1,.p2{
+    font-family: font;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    border: #E5E5E5 solid 2px;
+    color: #E5E5E5;
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 4px;
+    text-align: center;
+}
+.p2{
+    width: 200px;
+}
